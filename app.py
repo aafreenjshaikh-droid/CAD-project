@@ -10,15 +10,28 @@ st.set_page_config(
 )
 
 # Custom CSS for professional styling
+# Custom CSS for professional styling
 st.markdown("""
     <style>
         .stApp {
-            background-image: url('https://images.unsplash.com/photo-1502877338535-766e1452684a');
+            background-image: url('https://images.unsplash.com/photo-1581090700227-4c4d1a3a5d3b'); /* mechanical components */
             background-size: cover;
             background-attachment: fixed;
+            position: relative;
+        }
+        /* Overlay to soften background */
+        .stApp::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.6); /* semi-transparent overlay */
+            z-index: -1;
         }
         .main {
-            background-color: rgba(255, 255, 255, 0.85);
+            background-color: rgba(255, 255, 255, 0.92); /* stronger white box for text clarity */
             padding: 20px;
             border-radius: 10px;
         }
@@ -40,6 +53,7 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
+
 
 # Title
 st.title("Automotive Component Prompt to VBA Macro Generator")
