@@ -14,15 +14,16 @@ st.set_page_config(
 st.markdown("""
     <style>
         .stApp {
-            background: repeating-linear-gradient(
-                60deg,
-                #ffffff,
-                #ffffff 40px,
-                #ffeb3b 40px,
-                #ffeb3b 80px
-            );
-            background-attachment: fixed;
-        }
+    background: repeating-linear-gradient(
+        45deg,
+        #2c2c2c,
+        #2c2c2c 10px,
+        #3d3d3d 10px,
+        #3d3d3d 20px
+    );
+    background-attachment: fixed;
+}
+
         h1 {
             font-family: 'Trebuchet MS', sans-serif;
             color: #003366;
