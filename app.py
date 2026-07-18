@@ -10,11 +10,10 @@ st.set_page_config(
 )
 
 # Custom CSS for professional styling
-# Custom CSS for professional styling
 st.markdown("""
     <style>
         .stApp {
-            background-image: url('https://images.unsplash.com/photo-1581090700227-4c4d1a3a5d3b'); /* mechanical components */
+            background-image: url('https://images.unsplash.com/photo-1581090700227-4c4d1a3a5d3b'); /* mechanical parts */
             background-size: cover;
             background-attachment: fixed;
             position: relative;
@@ -27,11 +26,11 @@ st.markdown("""
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(255, 255, 255, 0.6); /* semi-transparent overlay */
+            background: rgba(255, 255, 255, 0.65); /* soft overlay for readability */
             z-index: -1;
         }
         .main {
-            background-color: rgba(255, 255, 255, 0.92); /* stronger white box for text clarity */
+            background-color: rgba(255, 255, 255, 0.95); /* strong white box for text clarity */
             padding: 20px;
             border-radius: 10px;
         }
@@ -53,6 +52,7 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
+
 
 
 # Title
