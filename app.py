@@ -24,7 +24,11 @@ st.markdown("""
             background-attachment: fixed;
         }
         h1 {
-            color: #ffffff !important; /* White color */
+            color: #ffffff !important;
+        }
+        /* Target the label text specifically */
+        label {
+            color: #ffffff !important;
         }
         .footer {
             color: #ffffff;
