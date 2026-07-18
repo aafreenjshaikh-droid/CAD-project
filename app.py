@@ -24,7 +24,7 @@ st.markdown("""
             background-attachment: fixed;
         }
         h1, .footer {
-            color: #ffffff;
+            color: snow;
         }
     </style>
 """, unsafe_allow_html=True)
