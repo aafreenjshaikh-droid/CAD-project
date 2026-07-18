@@ -23,8 +23,11 @@ st.markdown("""
             );
             background-attachment: fixed;
         }
-        h1, .footer {
-            color: snow;
+        h1 {
+    color: snow;
+    text-shadow: 2px 2px 4px #000000; /* black shadow for contrast */
+}
+
         }
     </style>
 """, unsafe_allow_html=True)
