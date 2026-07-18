@@ -10,29 +10,18 @@ st.set_page_config(
 )
 
 # Custom CSS for professional styling
+# Custom CSS for professional styling
 st.markdown("""
     <style>
         .stApp {
             background-image: url('https://images.unsplash.com/photo-1581090700227-4c4d1a3a5d3b'); /* mechanical parts */
             background-size: cover;
             background-attachment: fixed;
-            position: relative;
         }
-        /* Overlay to soften background */
-        .stApp::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(255, 255, 255, 0.65); /* soft overlay for readability */
-            z-index: -1;
-        }
-        .main {
-            background-color: rgba(255, 255, 255, 0.95); /* strong white box for text clarity */
-            padding: 20px;
-            border-radius: 10px;
+        /* Overlay applied directly to app background */
+        .stApp {
+            background-color: rgba(255, 255, 255, 0.7); /* soft white overlay */
+            background-blend-mode: lighten;
         }
         h1 {
             font-family: 'Trebuchet MS', sans-serif;
@@ -52,6 +41,7 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
+
 
 
 
