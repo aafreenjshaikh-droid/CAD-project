@@ -14,34 +14,21 @@ st.set_page_config(
 st.markdown("""
     <style>
         .stApp {
-    background: repeating-linear-gradient(
-        45deg,
-        #2c2c2c,
-        #2c2c2c 10px,
-        #3d3d3d 10px,
-        #3d3d3d 20px
-    );
-    background-attachment: fixed;
-}
-
-        h1 {
-            font-family: 'Trebuchet MS', sans-serif;
-            color: #003366;
-            text-align: center;
-            font-size: 2.8em;
+            background: repeating-linear-gradient(
+                45deg,
+                #1c1c1c,
+                #1c1c1c 10px,
+                #2a2a2a 10px,
+                #2a2a2a 20px
+            );
+            background-attachment: fixed;
         }
-        textarea {
-            font-family: 'Courier New', monospace;
-            font-size: 1.1em;
-        }
-        .footer {
-            text-align: center;
-            font-size: 0.9em;
-            color: #333333;
-            margin-top: 30px;
+        h1, .footer {
+            color: #ffffff;
         }
     </style>
 """, unsafe_allow_html=True)
+
 
 
 
