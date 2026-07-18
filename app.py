@@ -14,10 +14,13 @@ st.set_page_config(
 st.markdown("""
     <style>
         .stApp {
-            background: 
-                linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
-                url("https://images.unsplash.com/photo-1581090700227-4c4d1a3a5d3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80");
-            background-size: cover;
+            background: repeating-linear-gradient(
+                60deg,
+                #ffffff,
+                #ffffff 40px,
+                #ffeb3b 40px,
+                #ffeb3b 80px
+            );
             background-attachment: fixed;
         }
         h1 {
@@ -38,6 +41,7 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
+
 
 
 # Title
