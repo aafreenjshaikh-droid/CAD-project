@@ -12,7 +12,7 @@ st.set_page_config(
 # Custom CSS for professional styling
 st.markdown("""
     <style>
-        body {
+        .stApp {
             background-image: url('https://images.unsplash.com/photo-1502877338535-766e1452684a');
             background-size: cover;
             background-attachment: fixed;
@@ -42,7 +42,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title
-st.title("Automotive component Prompt to VBA Macro Generator By Ibraheem")
+st.title("Automotive Component Prompt to VBA Macro Generator")
 
 # Hugging Face API token
 api_token = os.environ.get("HF_TOKEN")
