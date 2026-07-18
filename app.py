@@ -23,10 +23,14 @@ st.markdown("""
             );
             background-attachment: fixed;
         }
-        h1 {
+       h1 {
     color: snow;
-    text-shadow: 2px 2px 4px #000000; /* black shadow for contrast */
+    background-color: rgba(0, 0, 0, 0.6); /* dark overlay */
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
 }
+
 
         }
     </style>
