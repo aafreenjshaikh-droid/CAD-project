@@ -23,12 +23,13 @@ st.markdown("""
             );
             background-attachment: fixed;
         }
-      h1 {
-    color: #00ffff; /* cyan */
-}
-
-
-
+        h1 {
+            color: #ffffff !important; /* White color */
+        }
+        .footer {
+            color: #ffffff;
+            text-align: center;
+            margin-top: 50px;
         }
     </style>
 """, unsafe_allow_html=True)
